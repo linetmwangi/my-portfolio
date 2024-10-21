@@ -1,0 +1,59 @@
+.grid-container{
+    grid-gap: 15px;
+    display:grid;
+    grid-template-areas:
+       'nb nb nb nb nb nb nb nb'
+       'id id id id id id id id'
+       'tl tl tl tl tl tl tl tl'
+       'sh sh sh sh sh sh sh sh'
+       'fd fd fd fd fd fd fd fd '
+;
+}
+
+#navbar{
+    grid-area: nb;
+}
+#imageDiv{
+    grid-area: id;
+}
+#tagline{
+    grid-area: tl;
+}
+#skills-hobbies{
+    grid-area: sh;
+}
+#footDiv{
+    grid-area: fd;
+}
+
+.footer {
+  background-color: #343a40; /* Dark background */
+  color: white; /* White text color */
+  padding: 20px 0; /* Padding for top and bottom */
+}
+
+.footer h5 {
+  font-size: 1.25rem;
+  margin-bottom: 15px;
+}
+
+.footer p {
+  margin-bottom: 10px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer .container {
+  max-width: 1000px;
+}
+
+.footer .row {
+  justify-content: space-between;
+}
